@@ -396,7 +396,7 @@ extension String
     }
 }
 
-@objc private extension URLSessionConfiguration
+@objc extension URLSessionConfiguration
 {
     private static var firstOccurrence = true
     
